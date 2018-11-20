@@ -9,21 +9,6 @@ h1 {
     position: relative;
     left: 245px;
 }
-.wrapper {
-    background-color: beige;
-}
-.sec {
-    position: relative;
-    top: 70px;
-    color: #777777;
-    max-width: 960px;
-    margin: auto;
-    padding: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border: #dddddd solid;
-    background-color: white;
-    
-}
 a {
     text-decoration: none;
     padding: 20px;
@@ -41,6 +26,15 @@ a {
 #about {
     float:right;
 }
+section {
+    position: relative;
+    left: -30px;
+    max-width: 960px;
+    margin: auto;
+    border: #dddddd solid;
+    background-color: white;
+    
+}
 h2 {
     clear: both;
     color: #4aaaa5;
@@ -50,25 +44,10 @@ h2 {
     font-size: 30px;
     overflow: auto;
 }
-.Bio {
-    font-size: 20pt;
-    line-height: .4in;
-}
-.Bio1  {
-    font-size: 20pt;
-    line-height: .4in;
     
-}
-#Picture {
-    padding: 10px;
-    float: left;
-}
-.backpic {
-    clear: both;
-    size: 400px 400px;
-    overflow: auto; 
-}
+  
 footer {
+    clear: both;
     background-color: #666666;
     text-align: center;
     padding: 20px;
